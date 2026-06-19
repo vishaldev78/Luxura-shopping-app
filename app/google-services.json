@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "950667236491",
+    "project_id": "fir-3ebba",
+    "storage_bucket": "fir-3ebba.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950667236491:android:2899bf5c70c882b22e708e",
+        "android_client_info": {
+          "package_name": "com.shops.ecomm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950667236491-00vvjh5q4mnv3nmnhqchjls3ge6ngfj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shops.ecomm",
+            "certificate_hash": "0fd5551ad2f66d8e68a3b5e68e0a4d831b8f8034"
+          }
+        },
+        {
+          "client_id": "950667236491-cu98q4d18ms2qmtag00gjc2k81t5d2bm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwmUnzJsZx-T93cGangWT-z6SHp_7DvmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950667236491-cu98q4d18ms2qmtag00gjc2k81t5d2bm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
