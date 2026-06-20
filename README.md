@@ -22,7 +22,6 @@ focused on performance, scalability and premium user experience.
 
 </p>
 
-
 ---
 
 ## 📲 Download
