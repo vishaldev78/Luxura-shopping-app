@@ -1,109 +1,212 @@
-# 🛍️ Luxura - Premium E-Commerce Android App
+# 🛍️ Luxura — Premium E-Commerce Android Application
 
 <p align="center">
 
-<img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=2070&auto=format&fit=crop" width="100%" />
+<img src="screenshots/banner.png" width="100%" />
 
 </p>
 
 
 <p align="center">
-A modern premium E-Commerce Android application built with Kotlin, Jetpack Compose, Firebase and Clean Architecture.
+A production-ready Android e-commerce application built with modern Android technologies,
+focused on performance, scalability and premium user experience.
 </p>
 
 
 <p align="center">
 
-<a href="https://github.com/vishaldev78/Luxura-shopping-app/releases">
-<img src="https://img.shields.io/github/v/release/vishaldev78/Luxura-shopping-app?style=for-the-badge"/>
-</a>
-
-<img src="https://img.shields.io/badge/Kotlin-100%25-purple?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Jetpack%20Compose-UI-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Kotlin-100%25-purple"/>
+<img src="https://img.shields.io/badge/Jetpack%20Compose-UI-blue"/>
+<img src="https://img.shields.io/badge/Firebase-Backend-orange"/>
+<img src="https://img.shields.io/badge/MVVM-Clean%20Architecture-green"/>
 
 </p>
 
 
-## 📱 Download App
+---
+
+## 📲 Download
 
 Latest APK:
 
-👉 [Download Luxura APK](https://github.com/vishaldev78/Luxura-shopping-app/releases/latest)
+[⬇️ Download Luxura APK](https://github.com/vishaldev78/Luxura-shopping-app/releases/latest)
 
 
 ---
 
-# ✨ Features
+# ✨ Overview
+
+Luxura is a modern shopping application that provides a complete e-commerce experience:
+
+- User authentication
+- Product discovery
+- Search & filtering
+- Cart management
+- Wishlist
+- Secure payments
+- Order tracking
 
 
-## 🔐 Authentication
+---
+
+# 📸 App Screenshots
+
+
+## 🏠 Home Experience
+
+<table>
+
+<tr>
+
+<td>
+<img src="screenshots/home.png" width="220"/>
+</td>
+
+<td>
+<img src="screenshots/banner.png" width="220"/>
+</td>
+
+<td>
+<img src="screenshots/category.png" width="220"/>
+</td>
+
+</tr>
+
+</table>
+
+
+
+## 🛍️ Shopping Flow
+
+
+<table>
+
+<tr>
+
+<td>
+<img src="screenshots/product.png" width="220"/>
+</td>
+
+<td>
+<img src="screenshots/search.png" width="220"/>
+</td>
+
+<td>
+<img src="screenshots/filter.png" width="220"/>
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+<img src="screenshots/cart.png" width="220"/>
+</td>
+
+<td>
+<img src="screenshots/wishlist.png" width="220"/>
+</td>
+
+<td>
+<img src="screenshots/checkout.png" width="220"/>
+</td>
+
+</tr>
+
+
+</table>
+
+
+
+## 👤 Account & Orders
+
+
+<table>
+
+<tr>
+
+<td>
+<img src="screenshots/profile.png" width="220"/>
+</td>
+
+<td>
+<img src="screenshots/orders.png" width="220"/>
+</td>
+
+<td>
+<img src="screenshots/tracking.png" width="220"/>
+</td>
+
+</tr>
+
+</table>
+
+
+
+> More screenshots available in `/screenshots` folder.
+
+
+---
+
+# 🚀 Features
+
+
+### 🔐 Authentication
 
 - Firebase Authentication
-- Google Sign-In
-- Secure user profile management
-- Light / Dark theme support
+- Google Sign In
+- User profile management
 
 
-## 🛒 Shopping
+### 🛒 Commerce
 
-- Product browsing
-- Category filtering
-- Smart search
-- Product details
+- Product catalog
+- Category browsing
+- Search
+- Filtering
 - Wishlist
-- Real-time cart
+- Cart
 
 
-## 💳 Payments
+### 💳 Payments
 
-Supported payment options:
-
-- Razorpay
-  - UPI
-  - Cards
-  - Net Banking
-
-- Stripe
-  - International payments
-
+- Razorpay Integration
+- Stripe Payment
 - Cash on Delivery
 
 
-## 📦 Orders
+### 📦 Orders
 
 - Order placement
 - Order history
-- Order tracking
-- Success animations
+- Live status updates
 
 
 ---
 
-# 🖼️ Screenshots
+# 🏗️ Architecture
 
 
-## Home Screen
-
-<img src="screenshots/home.png" width="250"/>
-
-
-## Product Details
-
-<img src="screenshots/details.png" width="250"/>
-
-
-## Cart
-
-<img src="screenshots/cart.png" width="250"/>
+```
+Presentation
+      |
+      |
+Domain
+      |
+      |
+Data
+      |
+ Firebase / API / Database
+```
 
 
-## Checkout
+Architecture:
 
-<img src="screenshots/checkout.png" width="250"/>
-
-
-
-> Add your screenshots inside `/screenshots` folder.
+- MVVM
+- Clean Architecture
+- Repository Pattern
+- Dependency Injection
 
 
 ---
@@ -114,56 +217,35 @@ Supported payment options:
 ## Android
 
 - Kotlin
-- Android SDK
 - Jetpack Compose
 - Material 3
+- Android SDK
 
 
 ## Architecture
 
 - MVVM
 - Clean Architecture
-- Repository Pattern
 
 
-## Dependency Injection
+## Libraries
 
 - Hilt
+- Retrofit
+- OkHttp
+- Gson
+- Coil
+- Coroutines
+- Flow
 
 
 ## Backend
 
-- Firebase Authentication
-- Cloud Firestore
-- Firebase Storage
-- Firebase Crashlytics
-- Firebase Performance
-
-
-## Networking
-
-- Retrofit
-- OkHttp
-- Gson
-
-
-## Database
-
+- Firebase Auth
 - Firestore
-- Room Database
-- DataStore
-
-
-## Image Loading
-
-- Coil
-
-
-## Async
-
-- Kotlin Coroutines
-- Flow
-- StateFlow
+- Storage
+- Crashlytics
+- Performance
 
 
 ## API
@@ -173,127 +255,81 @@ Supported payment options:
 
 ---
 
-# 🏗️ Architecture
+# 📁 Project Structure
 
-
-```
-Presentation Layer
-        |
-        |
-Domain Layer
-        |
-        |
-Data Layer
-        |
-        |
-Firebase / API / Database
-```
-
-
----
-
-# 🚀 Installation
-
-
-### Requirements
-
-- Android Studio Ladybug+
-- JDK 17+
-- Firebase Project
-
-
-Clone repository:
-
-```bash
-git clone https://github.com/vishaldev78/Luxura-shopping-app.git
-```
-
-
-Open project:
-
-```
-Android Studio
-      ↓
-Sync Gradle
-      ↓
-Run App
-```
-
-
-Add:
-
-```
-google-services.json
-```
-
-inside:
 
 ```
 app/
-```
 
-
----
-
-# 📂 Project Structure
-
-
-```
-app
-
-├── data
-│   ├── api
+├── data/
 │   ├── repository
-│
-├── domain
-│   ├── model
-│   ├── usecase
-│
-├── presentation
+│   └── api
+
+├── domain/
+│   └── model
+
+├── presentation/
 │   ├── screens
-│   ├── components
 │   └── viewmodel
 ```
 
 
 ---
 
-# 🔒 Security
+# ⚙️ Setup
 
-- Secure Firebase rules
-- Protected API handling
-- Crash monitoring
-- Network state monitoring
+
+Clone:
+
+```bash
+git clone https://github.com/vishaldev78/Luxura-shopping-app.git
+```
+
+
+Open with Android Studio:
+
+```
+Android Studio Ladybug+
+JDK 17+
+```
+
+
+Add Firebase:
+
+```
+app/google-services.json
+```
+
+
+Run:
+
+```
+Build → Run
+```
 
 
 ---
 
-# 📈 Future Improvements
+# 🔮 Future Improvements
 
-- Push Notifications
-- Coupon System
-- Seller Dashboard
-- AI Product Recommendation
-- Delivery Tracking
+- AI recommendation
+- Push notifications
+- Coupon system
+- Seller dashboard
+- Delivery tracking
 
 
 ---
 
-# 👨‍💻 Developer
+# 👨‍💻 Author
 
 **Vishal**
 
-Android Developer  
-Kotlin | Jetpack Compose | Firebase
+Android Developer
+
+Kotlin | Compose | Firebase
 
 
 ---
 
-# 📄 License
-
-MIT License
-
-
----
-
-⭐ If you like this project, consider giving it a star.
+⭐ Star this repository if you like it.
