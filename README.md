@@ -98,10 +98,10 @@ Luxura is a modern shopping application that provides a complete e-commerce expe
 
 <tr>
 
+<td><img src="https://i.postimg.cc/RhRTVhJy/Whats-App-Image-2026-06-20-at-12-24-59-AM-(1).jpg" width="180"/></td>
+<td><img src="https://i.postimg.cc/nrk1cr9N/Whats-App-Image-2026-06-20-at-12-24-58-AM.jpg" width="180"/></td>
 
-
-
-
+<td><img src="https://i.postimg.cc/nrk1cr9N/Whats-App-Image-2026-06-20-at-12-24-58-AM.jpg" width="180"/></td>
 <td><img src="https://i.postimg.cc/nrk1cr9N/Whats-App-Image-2026-06-20-at-12-24-58-AM.jpg" width="180"/></td>
 
 <td><img src="https://i.postimg.cc/8kB4bKXk/Whats-App-Image-2026-06-20-at-12-24-59-AM.jpg" width="180"/></td>
