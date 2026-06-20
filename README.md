@@ -2,7 +2,7 @@
 
 <p align="center">
 
-<img src="https://i.postimg.cc/bJFt6nnF/luxura-logo.png" width="100%" />
+<img src="https://i.postimg.cc/bJFt6nnF/luxura-logo.png" width="40" />
 
 </p>
 
