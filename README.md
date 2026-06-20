@@ -62,41 +62,44 @@ Luxura is a modern shopping application that provides a complete e-commerce expe
 <td><img src="https://i.postimg.cc/J0qQ40HQ/Whats-App-Image-2026-06-20-at-12-24-53-AM-(2).jpg" width="180"/></td>
 
 <td><img src="https://i.postimg.cc/wMVkTMRV/Whats-App-Image-2026-06-20-at-12-24-54-AM.jpg" width="180"/></td>
+<td><img src="https://i.postimg.cc/zvjkXvHw/Whats-App-Image-2026-06-20-at-12-24-54-AM-(1).jpg" width="180"/></td>
 
 </tr>
 
 
 <tr>
 
-<td><img src="https://i.postimg.cc/zvjkXvHw/Whats-App-Image-2026-06-20-at-12-24-54-AM-(1).jpg" width="180"/></td>
+
 
 <td><img src="https://i.postimg.cc/4y51NyHB/Whats-App-Image-2026-06-20-at-12-24-55-AM.jpg" width="180"/></td>
 
 <td><img src="https://i.postimg.cc/90pBF0wb/Whats-App-Image-2026-06-20-at-12-24-55-AM-(1).jpg" width="180"/></td>
 <td><img src="https://i.postimg.cc/8kB4bKX1/Whats-App-Image-2026-06-20-at-12-24-59-AM-(2).jpg" width="180"/></td>
 <td><img src="https://i.postimg.cc/MHDYKHft/Whats-App-Image-2026-06-20-at-12-24-55-AM-(2).jpg" width="180"/></td>
+<td><img src="https://i.postimg.cc/tJ5zCJnM/Whats-App-Image-2026-06-20-at-12-24-56-AM.jpg" width="180"/></td>
 
 </tr>
 
 
 <tr>
 
-<td><img src="https://i.postimg.cc/tJ5zCJnM/Whats-App-Image-2026-06-20-at-12-24-56-AM.jpg" width="180"/></td>
+
 
 <td><img src="https://i.postimg.cc/rsJ9FsRh/Whats-App-Image-2026-06-20-at-12-24-56-AM-(1).jpg" width="180"/></td>
 
 <td><img src="https://i.postimg.cc/4y51NyH2/Whats-App-Image-2026-06-20-at-12-24-56-AM-(2).jpg" width="180"/></td>
-
+<td><img src="https://i.postimg.cc/Xq8g7qBP/Whats-App-Image-2026-06-20-at-12-24-57-AM-(2).jpg" width="180"/></td>
 <td><img src="https://i.postimg.cc/ryCj9nZM/Whats-App-Image-2026-06-20-at-12-24-57-AM.jpg" width="180"/></td>
+<td><img src="https://i.postimg.cc/fyKvTySg/Whats-App-Image-2026-06-20-at-12-24-57-AM-(1).jpg" width="180"/></td>
 
 </tr>
 
 
 <tr>
 
-<td><img src="https://i.postimg.cc/fyKvTySg/Whats-App-Image-2026-06-20-at-12-24-57-AM-(1).jpg" width="180"/></td>
 
-<td><img src="https://i.postimg.cc/Xq8g7qBP/Whats-App-Image-2026-06-20-at-12-24-57-AM-(2).jpg" width="180"/></td>
+
+
 
 <td><img src="https://i.postimg.cc/nrk1cr9N/Whats-App-Image-2026-06-20-at-12-24-58-AM.jpg" width="180"/></td>
 
