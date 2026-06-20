@@ -251,8 +251,10 @@ git clone https://github.com/vishaldev78/Luxura-shopping-app.git
 Open with Android Studio:
 
 ```
-Android Studio Ladybug+
-JDK 17+
+- Android Studio Quail 1 (2026.1.1)
+- JDK 17+
+- Gradle 9+
+- Android SDK
 ```
 
 
