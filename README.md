@@ -2,7 +2,7 @@
 
 <p align="center">
 
-<img src="screenshots/banner.png" width="100%" />
+<img src="https://i.postimg.cc/bJFt6nnF/luxura-logo.png" width="100%" />
 
 </p>
 
@@ -88,9 +88,10 @@ Luxura is a modern shopping application that provides a complete e-commerce expe
 <td><img src="https://i.postimg.cc/rsJ9FsRh/Whats-App-Image-2026-06-20-at-12-24-56-AM-(1).jpg" width="180"/></td>
 
 <td><img src="https://i.postimg.cc/4y51NyH2/Whats-App-Image-2026-06-20-at-12-24-56-AM-(2).jpg" width="180"/></td>
+
+<td><img src="https://i.postimg.cc/fyKvTySg/Whats-App-Image-2026-06-20-at-12-24-57-AM-(1).jpg" width="180"/></td>
 <td><img src="https://i.postimg.cc/Xq8g7qBP/Whats-App-Image-2026-06-20-at-12-24-57-AM-(2).jpg" width="180"/></td>
 <td><img src="https://i.postimg.cc/ryCj9nZM/Whats-App-Image-2026-06-20-at-12-24-57-AM.jpg" width="180"/></td>
-<td><img src="https://i.postimg.cc/fyKvTySg/Whats-App-Image-2026-06-20-at-12-24-57-AM-(1).jpg" width="180"/></td>
 
 </tr>
 
