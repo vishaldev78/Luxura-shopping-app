@@ -6,10 +6,10 @@ import com.shops.ecomm.domain.model.Category
 fun CategoryDTO.toCategory(): Category {
 
     return Category(
-        id = id,
-        name = name,
-        slug = slug,
-        image = image
+        id = id ?: 0,
+        name = name ?: "",
+        slug = slug ?: "",
+        image = image ?: ""
     )
 
 }

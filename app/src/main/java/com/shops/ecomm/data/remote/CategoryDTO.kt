@@ -1,15 +1,23 @@
 package com.shops.ecomm.data.remote
 
+import com.google.gson.annotations.SerializedName
+
 data class CategoryDTO(
-    val id: Int,
+    @SerializedName("id")
+    val id: Int?,
 
-    val name: String,
+    @SerializedName("name")
+    val name: String?,
 
-    val slug: String,
+    @SerializedName("slug")
+    val slug: String?,
 
-    val image: String,
+    @SerializedName("image")
+    val image: String?,
 
-    val creationAt: String,
+    @SerializedName("creationAt")
+    val creationAt: String?,
 
-    val updatedAt: String
+    @SerializedName("updatedAt")
+    val updatedAt: String?
 )

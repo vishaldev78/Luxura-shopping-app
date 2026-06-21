@@ -57,7 +57,8 @@ fun HomeScreen(
         Category(2, "Electronics", "electronics", "https://i.imgur.com/ZANVnHE.jpeg"),
         Category(3, "Furniture", "furniture", "https://i.imgur.com/Qphac99.jpeg"),
         Category(4, "Shoes", "shoes", "https://i.imgur.com/qNOjJje.jpeg"),
-        Category(5, "Laptops", "laptops", "https://i.imgur.com/BG8J0Fj.jpg")
+        Category(5, "Laptops", "laptops", "https://i.imgur.com/BG8J0Fj.jpg"),
+
     )
 
     val filteredProducts = if (selectedCategory == "All") {
@@ -215,7 +216,9 @@ fun SwipeableBannerSection() {
         "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04" to "New Luxury\nArrivals",
         "https://images.unsplash.com/photo-1472851294608-062f824d29cc" to "Exclusive\nCollections",
         "https://images.unsplash.com/photo-1469334031218-e382a71b716b" to "Elegance\nRedefined",
-        "https://images.unsplash.com/photo-1534452203294-45c851ec56f3" to "Modern\nEssentials"
+        "https://images.unsplash.com/photo-1534452203294-45c851ec56f3" to "Modern\nEssentials",
+        "https://images.unsplash.com/photo-1469334031218-e382a71b716b" to "Elegance\nRedefined",
+
     )
     val pagerState = rememberPagerState(pageCount = { banners.size })
 

@@ -15,6 +15,11 @@ android {
     namespace = "com.shops.ecomm"
     compileSdk = 35
 
+    androidResources {
+        localeFilters += "en"
+        localeFilters += "hi"
+    }
+
     defaultConfig {
 
         applicationId = "com.shops.ecomm"
@@ -27,6 +32,12 @@ android {
 
         testInstrumentationRunner =
             "androidx.test.runner.AndroidJUnitRunner"
+
+        // Optimize for ARM devices (standard mobile) and exclude x86/x86_64
+        ndk {
+            abiFilters.add("armeabi-v7a")
+            abiFilters.add("arm64-v8a")
+        }
     }
 
 
@@ -34,7 +45,8 @@ android {
 
         release {
 
-            isMinifyEnabled = false
+            isMinifyEnabled = true
+            isShrinkResources = true
 
             proguardFiles(
                 getDefaultProguardFile(
@@ -42,6 +54,16 @@ android {
                 ),
                 "proguard-rules.pro"
             )
+            
+            // Further optimization
+            signingConfig = signingConfigs.getByName("debug") // release has a config
+        }
+    }
+
+    packaging {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+            excludes += "META-INF/versions/9/previous-compilation-data.bin"
         }
     }
 
@@ -85,7 +107,6 @@ dependencies {
 
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.googlefonts)
-    implementation(libs.fontawesome)
     implementation(libs.firebase.crashlytics)
     implementation(libs.firebase.perf)
 

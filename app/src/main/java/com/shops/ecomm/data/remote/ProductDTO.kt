@@ -1,20 +1,28 @@
 package com.shops.ecomm.data.remote
 
+import com.google.gson.annotations.SerializedName
 
 data class ProductDTO(
 
-    val id: Int,
+    @SerializedName("id")
+    val id: Int?,
 
-    val title: String,
+    @SerializedName("title")
+    val title: String?,
 
-    val slug: String,
+    @SerializedName("slug")
+    val slug: String?,
 
-    val price: Int,
+    @SerializedName("price")
+    val price: Int?,
 
-    val description: String,
+    @SerializedName("description")
+    val description: String?,
 
-    val category: CategoryDTO,
+    @SerializedName("category")
+    val category: CategoryDTO?,
 
-    val images: List<String>
+    @SerializedName("images")
+    val images: List<String>?
 
 )

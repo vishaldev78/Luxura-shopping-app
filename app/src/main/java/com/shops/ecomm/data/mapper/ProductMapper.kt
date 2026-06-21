@@ -6,13 +6,13 @@ import com.shops.ecomm.domain.model.Product
 
 fun ProductDTO.toProduct(): Product {
     return Product(
-        id = id,
-        title = title,
-        price = price,
-        oldPrice = (price * 1.2).toInt(), // Mocking comparison price
-        discount = "20% OFF", // Mocking discount
-        images = images,
-        description = description,
+        id = id ?: 0,
+        title = title ?: "No Title",
+        price = price ?: 0,
+        oldPrice = ((price ?: 0) * 1.2).toInt(),
+        discount = "20% OFF",
+        images = images ?: emptyList(),
+        description = description ?: "",
         isWishlisted = false
     )
 }
